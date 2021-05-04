@@ -1,0 +1,19 @@
+.wrapper {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 20px;
+}
+.item {
+    background: red;
+
+    padding: 0.5em;
+    font-size: 5vw;
+    text-align: center;
+}
+.auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.auto-fit div {
+background: blue;
+}
